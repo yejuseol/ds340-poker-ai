@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# big files: don't push to GitHub
+data/raw/
+data/processed/
+*.zip
+*.npz
+*.npy
+*.pt
+results/*.csv
